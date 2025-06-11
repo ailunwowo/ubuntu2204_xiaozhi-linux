@@ -1,3 +1,12 @@
+# Ubuntu22.04环境仿真运行小智
+
+## 程序执行步骤
+
+### 安装必要库
+- sudo apt update && sudo apt install -y libpng-dev libsdl2-dev libasound2-dev libopus-dev libspeexdsp-dev libasound2-dev libopus-dev libspeexdsp-dev libboost-system-dev libssl-dev libcurl4-openssl-dev g++ make
+- 复制websocketpp到/usr/local/include/
+
+
 # Linux 小智 AI 聊天机器人
 
 项目主要参考虾哥 [ESP32 AI小智](https://github.com/78/xiaozhi-esp32 ) 项目设计，我们在嵌入式 Linux 平台进行完整支持，其中有幸联系到虾哥本人，非常感谢在调试中给予我们建议方向，我们才能以最短的时间支持完成。此仓库主要作为 Linux AI小智 核心代码部分，不含各个单板平台适配相关的硬件 BSP 驱动 以及依赖，如果需要支持某款单板请参考如下支持列表。
